@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Master.srv"
   "srv/SaveMap.srv"
   "srv/ListMap.srv"
+  "srv/NavThroughPoses.srv"
 )
 
 if(BUILD_TESTING)
