@@ -11,14 +11,16 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MapListItem.msg"
+  "msg/Point.msg"
   "srv/Master.srv"
   "srv/SaveMap.srv"
   "srv/ListMap.srv"
-  "srv/NavThroughPoses.srv"
+  "srv/WaypointFollower.srv"
 )
 
 if(BUILD_TESTING)
