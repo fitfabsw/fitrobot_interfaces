@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SaveMap.srv"
   "srv/ListMap.srv"
   "srv/WaypointFollower.srv"
+  "srv/CheckNav.srv"
 )
 
 if(BUILD_TESTING)
