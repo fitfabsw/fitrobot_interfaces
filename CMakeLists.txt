@@ -17,10 +17,12 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MapListItem.msg"
   "msg/Point.msg"
+  "msg/Station.msg"
   "srv/Master.srv"
   "srv/SaveMap.srv"
   "srv/ListMap.srv"
   "srv/WaypointFollower.srv"
+  "srv/ListStation.srv"
 )
 
 if(BUILD_TESTING)
