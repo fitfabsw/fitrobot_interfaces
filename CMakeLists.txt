@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ListMap.srv"
   "srv/WaypointFollower.srv"
   "srv/ListStation.srv"
+  "srv/SetStation.srv"
 )
 
 if(BUILD_TESTING)
