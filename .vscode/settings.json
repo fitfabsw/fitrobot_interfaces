@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/parallels/simulations/build/test_symlink",
+        "/home/parallels/simulations/install/test_symlink/lib/python3.10/site-packages",
+        "/home/parallels/simulations/build/rosboard",
+        "/home/parallels/simulations/install/rosboard/lib/python3.10/site-packages",
+        "/home/parallels/simulations/install/nav2_sms_behavior/local/lib/python3.10/dist-packages",
+        "/home/parallels/simulations/install/linorobot2_gazebo/local/lib/python3.10/dist-packages",
+        "/home/parallels/simulations/build/fitrobot",
+        "/home/parallels/simulations/install/fitrobot/lib/python3.10/site-packages",
+        "/home/parallels/simulations/install/fitrobot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/parallels/simulations/build/test_symlink",
+        "/home/parallels/simulations/install/test_symlink/lib/python3.10/site-packages",
+        "/home/parallels/simulations/build/rosboard",
+        "/home/parallels/simulations/install/rosboard/lib/python3.10/site-packages",
+        "/home/parallels/simulations/install/nav2_sms_behavior/local/lib/python3.10/dist-packages",
+        "/home/parallels/simulations/install/linorobot2_gazebo/local/lib/python3.10/dist-packages",
+        "/home/parallels/simulations/build/fitrobot",
+        "/home/parallels/simulations/install/fitrobot/lib/python3.10/site-packages",
+        "/home/parallels/simulations/install/fitrobot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
