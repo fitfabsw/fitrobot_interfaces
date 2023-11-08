@@ -25,6 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/WaypointFollower.srv"
   "srv/ListStation.srv"
   "srv/TargetStation.srv"
+  "srv/CancelNav.srv"
 )
 
 if(BUILD_TESTING)
