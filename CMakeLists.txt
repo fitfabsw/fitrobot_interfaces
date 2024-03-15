@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Point.msg"
   "msg/Station.msg"
   "msg/RobotStatus.msg"
+  "msg/StationList.msg"
   "srv/Master.srv"
   "srv/SaveMap.srv"
   "srv/ListMap.srv"
