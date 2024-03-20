@@ -1,2 +1,4 @@
+# The index of the station in queue to be canceled, 0-based
+uint16 idx
 ---
 string ack
