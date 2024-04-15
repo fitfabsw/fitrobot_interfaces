@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/TargetStation.srv"
   "srv/CancelNav.srv"
   "srv/TerminateProcess.srv"
+  "srv/SubscriptionCount.srv"
 )
 
 if(BUILD_TESTING)

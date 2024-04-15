@@ -1,0 +1,4 @@
+# Given the topic name, return the subscription count of the topic
+string topic_name
+---
+uint16 count
