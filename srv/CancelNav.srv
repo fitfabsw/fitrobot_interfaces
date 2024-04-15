@@ -1,4 +1,6 @@
 # The index of the station in queue to be canceled, 0-based
+# idx == 0 cancels the current running job
+# idx >=1 cancels the idx(th) station in queue(1-based)
 uint16 idx
 ---
 string ack
